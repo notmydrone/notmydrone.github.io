@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: my;
+    src:url(Fact-BlackItalic.ttf);
+}
+body {
+	background-image: url(back.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.mama {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	right: 50px;
+}
+.name {
+	width: 400px;
+	padding: 5px 25px;
+	font-size: 50px;
+	font-family: my;
+	background: rgba(255,255,255,1.00);
+}
+.offer {
+	width: 580px;
+	margin-top: 70px;
+	font-size: 38px;
+	color: white;
+	font-family: my;
+}
+.little {
+	font-size: 25px;
+}
+.form {
+	position: absolute;
+	top: 155px;
+	right: 0px;
+	width: 470px;
+	height: 545px;
+	background: rgba(255,255,255,1.00);
+	text-align: center;
+}
+.inst {
+	position: absolute;
+	top: 20px;
+	right: 140px;
+	font-family: my;
+	font-size: 27px;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.insert {
+	font-size: 25px;
+	margin: 40px 0px 5px 0px;
+	padding: 8px 18px;
+	font-family: my;
+}
+input::placeholder {
+	color: rgba(30,30,30,1.00);
+}
+button {
+	margin-top: 40px;
+	font-family: my;
+	font-size: 27px;
+	color: white;
+	background-color: black;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+}
+.footer {
+	text-align: center;
+	margin: 50px 0px;
+	color: white;
+	font-family: my;
+	font-size: 15px;
+}
+.down {
+	margin-bottom: -8px;
+}

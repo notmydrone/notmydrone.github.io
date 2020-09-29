@@ -76,11 +76,121 @@ button {
 }
 .footer {
 	text-align: center;
-	margin: 50px 0px;
+	margin: 75px 0px;
 	color: white;
 	font-family: my;
 	font-size: 15px;
 }
 .down {
 	margin-bottom: -8px;
+}
+@media (max-width: 1300px) {
+	.offer {
+		font-size: 30px;
+	}
+	.insert, button {
+		font-size: 20px;
+		margin-top: 27px;
+	}
+	.form {
+		width: 415px;
+		height: 430px;
+	}
+	.inst {
+		right: 120px;
+		font-size: 25px;
+	}
+}
+@media (max-width: 1100px) {
+	.offer {
+		font-size: 26px;
+	}
+	.insert, button {
+		font-size: 18px;
+		margin-top: 22px;
+	}
+	.form {
+		width: 370px;
+		height: 385px;
+		top: 140px;
+	}
+	.inst {
+		right: 110px;
+		font-size: 22px;
+	}
+	.name {
+		font-size: 40px;
+		width: 330px;
+	}
+}
+@media (max-width: 900px) {
+	.offer {
+		font-size: 20px;
+		margin-top: 40px;
+	}
+	.insert, button {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.insert {
+		width: 190px;
+		padding: 5px 15px;
+	}
+	button {
+		margin-top: 10px;
+		padding: 5px 15px;
+	}
+	.form {
+		width: 270px;
+		height: 295px;
+		top: 110px;
+	}
+	.inst {
+		right: 60px;
+		font-size: 18px;
+	}
+	.name {
+		font-size: 40px;
+		width: 330px;
+	}
+}
+@media (max-width: 700px) {
+	
+	body {
+		background-image: url(mobile.png)
+	}
+	.offer {
+		width: inherit;
+		padding: 30px 0px;
+		font-size: 20px;
+		margin-top: 40px;
+	}
+	.insert, button {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+	.insert {
+		width: 190px;
+		padding: 5px 15px;
+	}
+	button {
+		margin-top: 15px;
+		padding: 5px 15px;
+	}
+	.form {
+		position: static;
+		margin: auto;
+		width: 270px;
+		height: 310px;
+		margin-top: 50px;
+	}
+	.inst {
+		top: 50px;
+		right: 25px;
+		font-size: 18px;
+	}
+	.name {
+		font-size: 30px;
+		width: 240px;
+	}
 }

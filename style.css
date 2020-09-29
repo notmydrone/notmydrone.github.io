@@ -85,6 +85,10 @@ button {
 	margin-bottom: -8px;
 }
 @media (max-width: 1300px) {
+	.mama {
+		top: 25px;
+		padding-bottom: 50px;
+	}
 	.offer {
 		font-size: 30px;
 	}
@@ -161,16 +165,16 @@ button {
 	}
 	.offer {
 		width: inherit;
-		padding: 30px 0px;
-		font-size: 20px;
-		margin-top: 40px;
+		padding: 40px 0px;
+		font-size: 18px;
+		margin-top: 20px;
 	}
 	.insert, button {
 		font-size: 16px;
-		margin-top: 20px;
+		margin-top: 18px;
 	}
 	.insert {
-		width: 190px;
+		width: 180px;
 		padding: 5px 15px;
 	}
 	button {
@@ -182,15 +186,17 @@ button {
 		margin: auto;
 		width: 270px;
 		height: 310px;
-		margin-top: 50px;
 	}
 	.inst {
-		top: 50px;
-		right: 25px;
+		top: 45px;
+		right: 0px;
 		font-size: 18px;
 	}
 	.name {
-		font-size: 30px;
-		width: 240px;
+		font-size: 25px;
+		width: 210px;
+	}
+	.footer {
+		margin: 50px 0px 0px 0px;
 	}
 }

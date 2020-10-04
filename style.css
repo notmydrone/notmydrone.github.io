@@ -20,7 +20,7 @@ body {
 .name {
 	width: 400px;
 	padding: 5px 25px;
-	font-size: 50px;
+	font-size: 25px;
 	font-family: my;
 	background: rgba(255,255,255,1.00);
 }
@@ -84,6 +84,9 @@ button {
 .down {
 	margin-bottom: -8px;
 }
+.email-invalid {
+	font-family: my;
+}
 @media (max-width: 1300px) {
 	.mama {
 		top: 25px;
@@ -122,7 +125,7 @@ button {
 		font-size: 22px;
 	}
 	.name {
-		font-size: 40px;
+		font-size: 20px;
 		width: 330px;
 	}
 }
@@ -153,7 +156,7 @@ button {
 		font-size: 18px;
 	}
 	.name {
-		font-size: 40px;
+		font-size: 20px;
 		width: 330px;
 	}
 }
@@ -192,7 +195,7 @@ button {
 		font-size: 18px;
 	}
 	.name {
-		font-size: 25px;
+		font-size: 12.5px;
 		width: 210px;
 	}
 	.footer {

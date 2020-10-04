@@ -70,7 +70,7 @@
     }
     */
 
-    if( data.email && !validEmail(data.email) ) {   // if email is not valid show error
+    if(( data.email && !validEmail(data.email)) || !data.name || !data.what || !data.where || !data.email ) {   // if email is not valid show error
       var invalidEmail = form.querySelector(".email-invalid");
       if (invalidEmail) {
         invalidEmail.style.display = "block";

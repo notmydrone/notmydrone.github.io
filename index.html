@@ -34,7 +34,7 @@
 		<a href="https://instagram.com/notmydrone_" target = "_blank">instagram <img src="notmydrone.png" width="32px" height="32px" class="down"></a>
 	</div>
 	<div class="form">
-	<form id="contact" novalidate>
+	<form id="contact" action="https://formspree.io/f/mqkgezka" method="POST" novalidate>
 		<input type="text" name="name" maxlength="25" class="insert" placeholder="Jak do cię zwracać się?" required/>
 		<input type="text" name="what" maxlength="100" class="insert" placeholder="Co trzeba filmować?" required/>
 		<input type="text" name="where" maxlength="100" class="insert" placeholder="Gdzie?" required/>
@@ -47,20 +47,7 @@
 	</div>
 </div>
 <footer>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init('user_JxkD87g2ys0L3iSNM16V8');
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact').addEventListener('submit', function(event) {
-                event.preventDefault();
-                emailjs.sendForm('contact_service', 'contact', this);
-            });
-        }
-    </script>
+	
 </footer>
 </body>
 </html>

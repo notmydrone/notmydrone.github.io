@@ -1,0 +1,15 @@
+User-agent: *
+
+Allow: /*
+
+Allow: /index.html
+
+Allow: /*.png
+
+Allow: /og.png
+
+Allow: /adlogo.png
+
+Host: https://notmydrone.com
+
+Sitemap: https://notmydrone.com/sitemap.xml

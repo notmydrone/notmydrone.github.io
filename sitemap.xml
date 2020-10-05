@@ -4,13 +4,11 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
   <loc>https://notmydrone.com/</loc>
-  <lastmod>2020-10-05T11:15:37+00:00</lastmod>
+  <changefreq>hourly</changefreq>
+  <priority>1.0</priority>
 </url>
-
 
 </urlset>

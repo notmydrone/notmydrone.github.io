@@ -55,6 +55,9 @@ a {
 	text-decoration: none;
 	color: white;
 }
+#in {
+	color: black;
+}
 .insert {
 	font-size: 25px;
 	margin: 40px 0px 5px 0px;

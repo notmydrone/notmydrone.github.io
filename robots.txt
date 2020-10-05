@@ -1,14 +1,11 @@
 User-agent: *
 
-Allow: /*
+Disallow: /*.ttf
+Disallow: /*.css
+Disallow: /*.js
 
 Allow: /index.html
-
 Allow: /*.png
-
-Allow: /og.png
-
-Allow: /adlogo.png
 
 Host: https://notmydrone.com
 

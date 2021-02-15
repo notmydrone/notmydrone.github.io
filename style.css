@@ -204,7 +204,9 @@ button {
 		font-size: 15px;
 	}
 	.down {
-		margin-bottom: -12px;
+		margin-bottom: -8px;
+		width: 24px;
+		height: 24px
 	}
 	.name {
 		font-size: 12.5px;

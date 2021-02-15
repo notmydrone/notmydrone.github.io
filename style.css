@@ -7,7 +7,7 @@
     src:url(Fact-BlackItalic.ttf);
 }
 body {
-	background-image: url(back.png);
+	background-image: url(warsaw_view_drone.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -46,10 +46,12 @@ body {
 .inst {
 	position: absolute;
 	top: 20px;
-	right: 140px;
+	right: 150px;
 	font-family: my;
-	font-size: 27px;
-	color: white;
+	font-size: 25px;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 a {
 	text-decoration: none;
@@ -61,11 +63,11 @@ a {
 .insert {
 	font-size: 25px;
 	margin: 40px 0px 5px 0px;
-	padding: 8px 18px;
+	padding: 8px 10px;
 	font-family: my;
 }
 input::placeholder {
-	color: rgba(30,30,30,1.00);
+	color: rgba(50,50,50,1.00);
 }
 button {
 	margin-top: 40px;
@@ -76,6 +78,7 @@ button {
 	padding: 10px 15px;
 	border: none;
 	cursor: pointer;
+	width: 150px;
 }
 .footer {
 	text-align: center;
@@ -98,7 +101,7 @@ button {
 		font-size: 30px;
 	}
 	.insert, button {
-		font-size: 20px;
+		font-size: 22px;
 		margin-top: 27px;
 	}
 	.form {
@@ -110,12 +113,14 @@ button {
 		font-size: 25px;
 	}
 }
+
 @media (max-width: 1100px) {
 	.offer {
 		font-size: 26px;
 	}
-	.insert, button {
-		font-size: 18px;
+	.insert {
+		width: 260px;
+		font-size: 19px;
 		margin-top: 22px;
 	}
 	.form {
@@ -128,7 +133,7 @@ button {
 		font-size: 22px;
 	}
 	.name {
-		font-size: 20px;
+		font-size: 19px;
 		width: 330px;
 	}
 }
@@ -138,7 +143,7 @@ button {
 		margin-top: 40px;
 	}
 	.insert, button {
-		font-size: 16px;
+		font-size: 14px;
 		margin-top: 20px;
 	}
 	.insert {
@@ -166,7 +171,7 @@ button {
 @media (max-width: 700px) {
 	
 	body {
-		background-image: url(mobile.png)
+		background-image: url(warsaw_view_drone_small.jpg)
 	}
 	.offer {
 		width: inherit;
@@ -179,6 +184,7 @@ button {
 		margin-top: 18px;
 	}
 	.insert {
+		font-size: 13px;
 		width: 180px;
 		padding: 5px 5px;
 	}
@@ -195,7 +201,10 @@ button {
 	.inst {
 		top: 45px;
 		right: 0px;
-		font-size: 18px;
+		font-size: 15px;
+	}
+	.down {
+		margin-bottom: -12px;
 	}
 	.name {
 		font-size: 12.5px;
